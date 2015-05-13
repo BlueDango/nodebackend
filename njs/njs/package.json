@@ -1,0 +1,14 @@
+{
+  "name": "njs",
+  "version": "0.0.0",
+  "description": "njs",
+  "main": "app.js",
+  "author": {
+    "name": "Dickson",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "^4.12.3",
+    "mongodb": "^2.0.31"
+  }
+}

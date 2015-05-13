@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Hello World</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="divSection" id="control">
+        <h1>Save a message new</h1>
+        <input type="text" id="msg" name="msg" />
+        <div>
+            <button type="button" onclick="sendRequest('get','/clear')">Clear Values</button>
+            <button type="button" onclick="sendRequest('get','/values')">Show Values</button>
+            <button type="button" onclick="sendRequest('post','/inbound','msg='+document.getElementById('msg').value)">Submit Values</button>
+        </div>
+    </div>
+    <div class="divSection" id="msgArea">
+    </div>
+    <script src="/js/myTest.js"></script>
+</body>
+</html>
